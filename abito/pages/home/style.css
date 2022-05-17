@@ -1,0 +1,135 @@
+@import url(../../assetes/css/footer.css);
+@import url(../../assetes/css/header.css);
+@import url(../../assetes/css/fonts.css);
+@import url(../../assetes/css/normalize.css);
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+h3 {
+    margin: 5px 0px;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.main {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__cards {
+    width: 75%;
+}
+
+.rec {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A143A;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__one {
+    margin-bottom: 20px;
+}
+
+.card {
+    display: block;
+}
+
+.wrap__img {
+    border-radius: 10px;
+}
+
+.card__img {
+    object-fit: cover;
+    max-width: 270px;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #256EEB;
+    max-width: 225px;
+
+}
+
+.card__title-heart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-heart {
+    color: #C4C4C4;
+}
+
+.fa-heart:hover {
+    color: #256EEB;
+}
+
+.card__cost {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card__desc,
+.card__data {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #C4C4C4;
+
+}
+
+.main__services {
+    width: 20%;
+}
+
+.main__reser {
+    margin-bottom: 37px;
+}
+
+.main__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #0A143A;
+}
+
+.main__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #0A143A;
+}
+
+.header__slider {
+    display: none;
+}
+
+  
